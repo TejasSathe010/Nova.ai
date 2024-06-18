@@ -1,0 +1,89 @@
+AI-Virtual-Assistant/
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   ├── routes.py
+│   │   │   ├── auth.py
+│   │   │   ├── tasks.py
+│   │   │   └── users.py
+│   │   ├── core/
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   ├── security.py
+│   │   │   └── database.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── user.py
+│   │   │   ├── task.py
+│   │   │   └── reminder.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── nlp_service.py
+│   │   │   ├── tts_service.py
+│   │   │   ├── stt_service.py
+│   │   │   └── integration_service.py
+│   │   ├── utils/
+│   │   │   ├── __init__.py
+│   │   │   ├── helpers.py
+│   │   │   └── decorators.py
+│   │   └── tests/
+│   │       ├── __init__.py
+│   │       ├── test_api.py
+│   │       ├── test_services.py
+│   │       └── test_models.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── README.md
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── App.js
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── VoiceInput.js
+│   │   │   ├── TextInput.js
+│   │   │   ├── VisualInput.js
+│   │   │   ├── UserProfile.js
+│   │   │   └── TaskManager.js
+│   │   ├── context/
+│   │   │   ├── AuthContext.js
+│   │   │   └── UserContext.js
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   └── auth.js
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   └── setupTests.js
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── yarn.lock
+│   └── README.md
+│
+├── deploy/
+│   ├── docker-compose.yml
+│   ├── nginx/
+│   │   ├── nginx.conf
+│   ├── kubernetes/
+│   │   ├── deployment.yaml
+│   │   ├── service.yaml
+│   └── README.md
+│
+├── docs/
+│   ├── architecture_diagram.png
+│   ├── api_documentation.md
+│   ├── user_manual.md
+│   └── README.md
+│
+└── README.md

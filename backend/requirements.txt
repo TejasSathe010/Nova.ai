@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+python-jose
+passlib[bcrypt]
+google-cloud-texttospeech
+google-cloud-speech
+spacy

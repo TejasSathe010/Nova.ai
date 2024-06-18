@@ -1,0 +1,29 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore database files
+*.db
+
+# Ignore Node.js modules
+/node_modules
+
+# Ignore compiled React files
+/build
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore log files
+*.log
+
+# Ignore Docker artifacts
+.DS_Store
+.dockerignore
+.docker/
